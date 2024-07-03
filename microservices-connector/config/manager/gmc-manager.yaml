@@ -27,7 +27,7 @@ spec:
       containers:
       - command:
         - /manager
-        image: opea/gmcmanager:latest
+        image: 115108445189.dkr.ecr.us-west-1.amazonaws.com/opea:gmcmanager
         name: manager
         volumeMounts:
         - name: yaml-file
